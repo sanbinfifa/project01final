@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="bangladesh-govt-republic-of-bangladesh-logo-png_seeklogo-406974.png" type="image/x-icon">
+    <title>Driving License Registration Form</title>
+</head>
+<body>
+
+    <h1 id="a">ড্রাইভিং লাইসেন্স রেজিস্ট্রেশন ফর্ম বাংলাদেশ</h1>
+    
+<p id="j">বাংলাদেশে ড্রাইভিং লাইসেন্স হলো একটি সরকারি স্বীকৃত নথি, যা বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (বিআরটিএ) প্রদান করে এবং এটি বৈধভাবে যানবাহন চালানোর জন্য অপরিহার্য। বাংলাদেশ সরকার সড়ক পরিবহন আইন ও বিআরটিএ নীতিমালা অনুযায়ী মোটরগাড়ি, মোটরসাইকেল, পেশাদার ও অপেশাদার চালকদের ড্রাইভিং লাইসেন্স প্রদান করে। ড্রাইভিং লাইসেন্স পেতে হলে প্রথমে আবেদনকারীর নির্ধারিত বয়স পূর্ণ হতে হবে, প্রয়োজনীয় কাগজপত্র জমা দিতে হবে এবং বিআরটিএ-এর অনুমোদিত ড্রাইভিং প্রশিক্ষণ নিতে হবে। এরপর তাত্ত্বিক ও ব্যবহারিক পরীক্ষায় উত্তীর্ণ হলে লাইসেন্স প্রদান করা হয়। বৈধ ড্রাইভিং লাইসেন্স সড়ক নিরাপত্তা নিশ্চিত করে, দুর্ঘটনা কমায় এবং আইনগত জটিলতা থেকে রক্ষা করে। তাই প্রত্যেক চালকের উচিত সরকারি নিয়ম অনুযায়ী ড্রাইভিং লাইসেন্স নবায়ন ও সংরক্ষণ করা, যাতে সড়কপথে শৃঙ্খলা বজায় থাকে এবং নিরাপদ যাতায়াত নিশ্চিত হয়।</p>
+    <form method="post" action="submit.html">
+      <div>
+
+       <p>
+            <label for="name">FULL NAME/পুরো নাম:</label><br>
+            <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+            <label for="dob">Date of Birth/জন্ম তারিখ:</label>
+            <br>
+            <input type="date" id="date" name="date" value="dob">
+        </p>
+
+        <p>Gender:<br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            
+        </p>
+
+        <p>
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40"></textarea>
+        </p>
+
+        <p>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone">
+        </p>
+
+        <p>
+            <label for="NID">NID NUMBER:</label><br>
+            <input type="tel" id="phone" name="phone">
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="license">License Type:</label><br>
+            <select id="license" name="license" required>
+                <option value="">--Select--</option>
+                <option value="two">Two Wheeler</option>
+                <option value="four">Four Wheeler</option>
+                <option value="both">Both</option>
+            </select>
+        </p>
+
+        <p>
+           
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+           </div>
+</body>
+
+</html>

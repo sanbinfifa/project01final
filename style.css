@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-style: inherit; 
+    color: goldenrod;
+}
+
+
+body{
+    background-image: url(dynamic-red-and-green-abstract-background-vector-27453301.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;         
+     
+  background-position : center;         
+     
+  background-color:green;               
+}
+ #j{
+    color: gold;
+ }
+ div{
+    color: gold;
+ }
